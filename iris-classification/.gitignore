@@ -1,0 +1,42 @@
+# Ignore environment files and Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+env/
+#jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Conda environment files
+.env
+.venv/
+*.env
+.envrc
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.pid
+*.swp
+.DS_Store  # macOS
+Thumbs.db  # Windows
+# Virtual environments
+env/
+venv/
+.venv/
+# VSCode settings
+.vscode/
+# Data files
+*.csv
+*.h5
+*.db
+# Model files
+*.h5
+*.pkl
+*.joblib
+
